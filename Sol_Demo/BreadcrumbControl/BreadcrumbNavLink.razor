@@ -1,0 +1,10 @@
+﻿@if (this.IsActive == false)
+{
+    <li>
+        <a href="@this.Href">@this.Name</a>
+    </li>
+}
+else
+{
+    <li class="active">@this.Name</li>
+}
